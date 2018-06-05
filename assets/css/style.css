@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/what-the-hex-dark.png");
+    background-repeat: repeat;
+}
+
+.head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: darkgrey;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(255, 242, 236, 0.2);
+}
+.subhead {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: darkgrey;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(158, 148, 144, 0.1);
+}
+
+.matchScore{
+     border-radius: 8px;
+     border: 2px solid darkgrey;
+     display: inline-block;
+     padding: 5px;
+}
+
+.gems{
+    max-height: 100px;
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
