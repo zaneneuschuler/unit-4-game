@@ -42,6 +42,11 @@ body {
     max-width: 50%;
 }
 
+.gems:active{
+    border-radius: 3px;
+    border:2px solid yellow;
+}
+
 .outside{
     display: flex;
     justify-content: center;

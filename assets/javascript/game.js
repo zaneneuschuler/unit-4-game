@@ -107,6 +107,7 @@ $(document).ready(function(){
         gem4 = readyGem();
         target = readyTarget();
         $('.winLose').empty();
+        gameOver = false;
         userScore= 0;
         setBoard();
 
@@ -117,7 +118,7 @@ function readyGem() {
     return Math.floor(Math.random() * 12 + 1);
 }
 function readyTarget() {
-    return Math.floor(Math.random() * 120 + 19);
+    return Math.floor(Math.random() * 101 + 19);
 }
 
 
