@@ -106,6 +106,7 @@ $(document).ready(function(){
         gem3 = readyGem();
         gem4 = readyGem();
         target = readyTarget();
+        $('.winLose').empty();
         userScore= 0;
         setBoard();
 
