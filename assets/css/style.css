@@ -29,6 +29,13 @@ body {
      display: inline-block;
      padding: 5px;
 }
+.playerScore{
+    border-radius: 8px;
+    border: 2px solid darkgrey;
+    display: inline-block;
+    padding: 5px;
+
+}
 
 .gems{
     max-height: 100px;
@@ -38,4 +45,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.reset{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0px;
 }
