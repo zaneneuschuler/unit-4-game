@@ -39,6 +39,7 @@ body {
 
 .gems{
     max-height: 100px;
+    max-width: 50%;
 }
 
 .outside{
